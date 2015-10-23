@@ -5,7 +5,7 @@ var incompleteTasksHolder = document.getElementById("incomplete-tasks"); // inco
 var completedTasksHolder = document.getElementById("completed-tasks"); // completed-tasks
 
 // New Task list item
-var createNewTaskElement = function(taskString) {
+function createNewTaskElement(taskString) {
     // create list item
     var listItem = document.createElement('li');
     // input (checkbox)
@@ -117,7 +117,7 @@ var bindTaskEvents = function(taskListItem, checkBoxEventHandler) {
 
     //bind editTask to edit button
     editButton.onclick = editTask;
-    // bind deletTask to delete button
+    // bind deleteTask to delete button
     deleteButton.onclick = deleteTask;
     // bind checkBoxEventHandler to checkbox
     checkBox.onchange = checkBoxEventHandler;
