@@ -148,8 +148,3 @@ for (var i=0; i < completedTasksHolder.children.length ; i++) {
         bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
 }
 
-
-
-
-
-
