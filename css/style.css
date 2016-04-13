@@ -72,9 +72,9 @@ input#new-task {
   float: left;
   width: 318px;
 }
-p > button:hover {
+/*p > button:hover {
   color: #0FC57C;
-}
+}*/
 
 /* Task list */
 li {
@@ -97,8 +97,15 @@ li >  input[type="text"] {
   width: 226px;
 }
 li > .delete:hover {
-  color: #CF2323;
+  color: #ff6666;
 }
+p > button:hover {
+  color: #0FC57C;
+}
+li > .edit:hover {
+  color: #1aa3ff;
+}
+
 
 /* Completed */
 #completed-tasks label {
